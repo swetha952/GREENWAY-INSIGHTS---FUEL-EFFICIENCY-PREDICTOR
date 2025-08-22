@@ -1,7 +1,7 @@
 # GREENWAY-INSIGHTS---FUEL-EFFICIENCY-PREDICTOR
 
 🚗 Project Overview
-Greenway Insights is an intelligent fuel efficiency prediction solution for vehicles, developed as part of the IBM EdTech Youth Challenge. This project harnesses the power of machine learning to accurately estimate a car’s miles-per-gallon (MPG) by analyzing multiple accessible vehicle characteristics. It enables users, manufacturers, and policymakers to make informed decisions that benefit both the economy and the environment.
+Greenway Insights is an intelligent fuel efficiency prediction solution for vehicles.This project harnesses the power of machine learning to accurately estimate a car’s miles-per-gallon (MPG) by analyzing multiple accessible vehicle characteristics. It enables users, manufacturers, and policymakers to make informed decisions that benefit both the economy and the environment.
 
 🎯 Project Goals
 Accurate Forecasts: Predict a car’s MPG using technical parameters such as weight, horsepower, acceleration, etc.
