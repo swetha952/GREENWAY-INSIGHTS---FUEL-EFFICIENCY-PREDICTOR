@@ -1,84 +1,89 @@
 # GREENWAY-INSIGHTS---FUEL-EFFICIENCY-PREDICTOR
+# GREENWAY INSIGHTS – AI Fuel Efficiency Predictor
 
-🚗 Project Overview
-Greenway Insights is an intelligent fuel efficiency prediction solution for vehicles.This project harnesses the power of machine learning to accurately estimate a car’s miles-per-gallon (MPG) by analyzing multiple accessible vehicle characteristics. It enables users, manufacturers, and policymakers to make informed decisions that benefit both the economy and the environment.
+## 🚗 Project Overview
 
-🎯 Project Goals
-Accurate Forecasts: Predict a car’s MPG using technical parameters such as weight, horsepower, acceleration, etc.
+**Greenway Insights** is an intelligent fuel efficiency prediction solution for vehicles, developed as part of the IBM EdTech Youth Challenge. This project harnesses the power of machine learning to accurately estimate a car’s miles-per-gallon (MPG) by analyzing multiple accessible vehicle characteristics. It enables users, manufacturers, and policymakers to make informed decisions that benefit both the economy and the environment.[1]
 
-Empower Users: Deliver actionable insights to help maximize fuel savings.
+***
 
-Sustainability Focus: Encourage eco-friendly vehicle design and policy-making by providing clear evidence-driven recommendations.
+## 🎯 Project Goals
 
-📊 Key Features
-Effortless Prediction: Users input vehicle details; instant MPG predictions are delivered.
+- **Accurate Forecasts:** Predict a car’s MPG using technical parameters such as weight, horsepower, acceleration, etc.
+- **Empower Users:** Deliver actionable insights to help maximize fuel savings.
+- **Sustainability Focus:** Encourage eco-friendly vehicle design and policy-making by providing clear evidence-driven recommendations.[1]
 
-Visual Insights: Actual vs. predicted MPG displayed via intuitive graphs for easy comparison and understanding.
+***
 
-Fuel Efficiency Classification: Immediate notification of whether the entered vehicle is “fuel efficient” or “not fuel efficient” (>30 MPG threshold).
+## 📊 Key Features
 
-⚙️ Technical Details
-Data Preparation
-Dataset: UCI Auto MPG Dataset
+- **Effortless Prediction:** Users input vehicle details; instant MPG predictions are delivered.
+- **Visual Insights:** Actual vs. predicted MPG displayed via intuitive graphs for easy comparison and understanding.
+- **Fuel Efficiency Classification:** Immediate notification of whether the entered vehicle is “fuel efficient” or “not fuel efficient” (>30 MPG threshold).[1]
 
-Features: cylinders, displacement, horsepower, weight, acceleration, model year, origin
+***
 
-Preprocessing: Column cleaning, normalization, categorical encoding, and missing value handling
+## ⚙️ Technical Details
 
-Model Deployment
-Algorithm: Linear Regression (with code support for Random Forest Regressor)
+### Data Preparation
 
-Evaluation: Measures used include Mean Absolute Error (MAE) and R² Score for precision and reliability
+- **Dataset:** [UCI Auto MPG Dataset](https://www.kaggle.com/datasets/uciml/autompg-dataset)
+- **Features:** cylinders, displacement, horsepower, weight, acceleration, model year, origin
+- **Preprocessing:** Column cleaning, normalization, categorical encoding, and missing value handling
 
-Visualization: Interactive scatter plot illustrates model accuracy
+### Model Deployment
 
-🧑💻 Quick Start Guide
-Requirements
-Python 3.x
+- **Algorithm:** Linear Regression (with code support for Random Forest Regressor)
+- **Evaluation:** Measures used include Mean Absolute Error (MAE) and R² Score for precision and reliability
+- **Visualization:** Interactive scatter plot illustrates model accuracy
 
-Libraries: pandas, scikit-learn, matplotlib
+***
 
-How to Use
-Place Auto_Data_Set_963_49.csv in your project directory.
+## 🧑💻 Quick Start Guide
 
-Update the file path in the script as needed.
+### Requirements
 
-Run the Python script:
+- Python 3.x
+- Libraries: pandas, scikit-learn, matplotlib
 
-bash
-python greenway_insights.py
-Enter the required vehicle details when prompted.
+### How to Use
 
-View the predicted MPG and classification result; the actual vs. predicted MPG graph will be displayed.
+1. Place `Auto_Data_Set_963_49.csv` in your project directory.
+2. Update the file path in the script as needed.
+3. Run the Python script:
+   ```bash
+   python greenway_insights.py
+   ```
+4. Enter the required vehicle details when prompted.
+5. View the predicted MPG and classification result; the actual vs. predicted MPG graph will be displayed.
 
-✅ User Experience Workflow
-Input Vehicle Specifications:
+***
 
-Cylinders, displacement, horsepower, weight, acceleration, year, origin.
+## ✅ User Experience Workflow
 
-Instant Prediction:
+1. **Input Vehicle Specifications:**  
+   - Cylinders, displacement, horsepower, weight, acceleration, year, origin.
+2. **Instant Prediction:**  
+   - The ML model calculates and reveals the MPG.
+3. **Efficiency Classification:**  
+   - Feedback on whether the car is fuel efficient.
+4. **Visual Comparison:**  
+   - Scatter plot of actual vs. predicted values for deeper analysis.[1]
 
-The ML model calculates and reveals the MPG.
+***
 
-Efficiency Classification:
+## 🌟 Project Highlights & Future Roadmap
 
-Feedback on whether the car is fuel efficient.
+- **Simple & Accessible:** Easy-to-use interface makes predictions accessible to all.
+- **Clear Visuals:** Graphical outputs aid understanding and decision-making.
+- **Planned Enhancements:**  
+  - Expand historical dataset for greater accuracy.
+  - Broaden access through mobile/web applications.
+  - Add advanced features (eco-driving tips, community sharing, gamification, real-time fuel price tracking).
+  - Enhance security for user data and privacy.[1]
 
-Visual Comparison:
+***
 
-Scatter plot of actual vs. predicted values for deeper analysis.
+> **Greenway Insights** enables smarter, more sustainable driving choices, supporting economic savings and the environment—all powered by AI.[1]
 
-🌟 Project Highlights & Future Roadmap
-Simple & Accessible: Easy-to-use interface makes predictions accessible to all.
-
-Clear Visuals: Graphical outputs aid understanding and decision-making.
-
-Planned Enhancements:
-
-Expand historical dataset for greater accuracy.
-
-Broaden access through mobile/web applications.
-
-Add advanced features (eco-driving tips, community sharing, gamification, real-time fuel price tracking).
-
-Enhance security for user data and privacy.
+[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/83948908/9b11c22c-c138-4d6b-80af-2f5f1dc24b6f/GREENWAY-INSIGHTS-LOGBOOK.docx)
