@@ -83,7 +83,3 @@
   - Enhance security for user data and privacy.[1]
 
 ***
-
-> **Greenway Insights** enables smarter, more sustainable driving choices, supporting economic savings and the environment—all powered by AI.[1]
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/83948908/9b11c22c-c138-4d6b-80af-2f5f1dc24b6f/GREENWAY-INSIGHTS-LOGBOOK.docx)
